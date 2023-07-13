@@ -56,6 +56,21 @@ module.exports = {
           clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
           background: 'linear-gradient(36deg, #ffcc21 8.26%, #ff963c 91.18%)',
         },
+        '.exercise-scroll': {
+          '&::-webkit-scrollbar': {
+            width: '6px',
+          },
+          '&::-webkit-scrollbar-track': {
+            backgroundColor: '#777777',
+            '-webkit-border-radius': '6px',
+            borderRadius: '6px',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            '-webkit-border-radius': '6px',
+            borderRadius: '6px',
+            background: '#ffcc21',
+          }
+        }
       });
     },
     require('@tailwindcss/line-clamp')
