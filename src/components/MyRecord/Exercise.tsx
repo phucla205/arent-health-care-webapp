@@ -27,7 +27,7 @@ const Exercise = () => {
         </span>
         <span className="text-[22px] pl-4">2021.05.21</span>
       </div>
-      <div className="exercise-scroll grid grid-cols-2 gap-x-10 mt-1 h-[200px] overflow-y-auto pr-8">
+      <div className="grid grid-cols-2 gap-x-10 mt-1 h-[200px] overflow-y-auto pr-8">
         {data?.map(() => (
           <Detail />
         ))}
